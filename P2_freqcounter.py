@@ -4,7 +4,6 @@ def getList(size: int):
 
 def getCount(item,l1):
     ctr=len([x for x in l1 if x==item])
-
     return [item,ctr]
 
 def getFreq(l1):
