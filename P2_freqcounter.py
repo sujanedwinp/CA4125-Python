@@ -22,4 +22,4 @@ def printFreq(freq):
 size=int(input("Enter size: "))
 l1=getList(size)
 freq=getFreq(l1)
-print(printFreq(freq))
+printFreq(freq)
