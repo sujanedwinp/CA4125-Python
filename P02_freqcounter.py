@@ -23,3 +23,4 @@ size=int(input("Enter size: "))
 l1=getList(size)
 freq=getFreq(l1)
 printFreq(freq)
+
