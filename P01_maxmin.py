@@ -17,7 +17,7 @@ def minmaxnum(l1: list):
         if n>=maxv:
             maxv=n
 
-    return [min, max]
+    return [minv, maxv]
 
 l1=getList()
 [minv, maxv]=minmaxnum(l1)
