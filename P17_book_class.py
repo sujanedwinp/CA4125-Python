@@ -1,17 +1,24 @@
+
 class Book:
-    def __init__(self, title, author, year, price):
-        self.title = title
+    def __init__(self, name, author, price):
+        self.name = name
         self.author = author
-        self.year = year
         self.price = price
 
     def display(self):
-        print(f"Title: {self.title}, Author: {self.author}, Year: {self.year}, Price: ₹{self.price}")
+        print(f"Name: {self.name}\tAuthor: {self.author}\tPrice: ₹{self.price}")
 
 
-# Creating book objects
-b1 = Book("Python Basics", "Guido", 2020, 450)
-b2 = Book("Data Science", "Jake", 2022, 650)
+size=int(input("Enter count: "))
+print(f"Enter {size} books")
+books=[]
+for i in range (size):
+    name=input("Name: ")
+    author=input("Author: ")
+    price=input("Price: ")
+    books.append(Book(name, author, price))
 
-b1.display()
-b2.display()
+print("All Books:")
+for i in range(size):
+    books[i].display()
+
