@@ -16,5 +16,5 @@ class ElectronicsProduct(Product):
         print(f"Price: ₹{self.price}")
         print(f"Brand: {self.brand}")
 
-device = ElectronicsProduct(101, "Sam 1", 25000, "Samsung")
+device = ElectronicsProduct(101, "Galaxy 1", 25000, "Samsung")
 device.display_details()
