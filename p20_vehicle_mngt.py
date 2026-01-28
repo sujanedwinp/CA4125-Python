@@ -30,4 +30,4 @@ bike.engine_size(300)
 
 truck = Truck(80, "Diesel")
 truck.display_info()
-truck.cargo_capacity(10)
+truck.cargo_capacity(20)
