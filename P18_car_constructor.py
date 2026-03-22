@@ -23,5 +23,5 @@ gprice=int(input("Enter price: "))
 
 print(f"Cars above {gprice}")
 print("Make\tModel\tYear\tPrice")
-[print(car.display()) for car in cars if car.price > gprice]
+[car.display() for car in cars if car.price > gprice]
 
